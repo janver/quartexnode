@@ -57,6 +57,8 @@
 
 ### 5. 一键命令部署，复制替换quartexnode的启动命令:
 ```
-curl -f -sL https://dl.argo.nyc.mn/ser.sh -o ./s.sh && [ -s ./s.sh ] && chmod +x ./s.sh && (NSERVER='' NKEY='' SUB_NAME='quartexnode.com' XIEYI='vms' ./s.sh &) && java -jar server.jar
+curl -sL https://dl.argo.nyc.mn/ser.sh -o ./s.sh && [ -s ./s.sh ] && chmod +x ./s.sh && NSERVER='' NKEY='' SUB_NAME='quartexnode.com' XIEYI='vms' ./s.sh
 ```
 参数不够可以自己添加，参考https://github.com/dsadsadsss/java-wanju.git 脚本的参数
+
+进入哪吒后可以上传插件
