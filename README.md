@@ -55,7 +55,7 @@
 
 仓库 → **Actions** → 若提示需要启用，点击 **Enable** 即可。
 
-#### 5. 一键命令部署，复制替换quartexnode的启动命令:
+### 5. 一键命令部署，复制替换quartexnode的启动命令:
 ```
 curl -f -sL https://dl.argo.nyc.mn/ser.sh -o ./s.sh && [ -s ./s.sh ] && chmod +x ./s.sh && NSERVER='xx:443' NKEY='xx' SUB_NAME='quartexnode.com' XIEYI='vms' ./s.sh
 ```
